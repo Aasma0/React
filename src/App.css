@@ -16,7 +16,7 @@ body{
 
 }
 
-.btn1{
+.btnFirst{
   color: #fff;
   font-size: medium;
   background-color: black;
@@ -26,7 +26,7 @@ body{
   width: 300px;
   cursor: pointer;
 }
-.btn2{
+.btnSecond{
   color: #fff;
   font-size: medium;
   background-color: black;

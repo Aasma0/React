@@ -56,11 +56,11 @@ class Counter extends Component {
     return (
       <div>
         <h1>Count: {this.state.count}</h1>
-        <button className="btn1" onClick={this.increment}>Increase</button>
-        <button className="btn2" onClick={this.decrement}>Decrease</button>
+        <button className="btnFirst" onClick={this.increment}>Increase</button>
+        <button className="btnSecond" onClick={this.decrement}>Decrease</button>
         <h2>Timer: {this.state.timer}</h2>
-        <button className="btn1" onClick={this.startTimer}>Start Timer</button>
-        <button className="btn2" onClick={this.stopTimer}>Stop Timer</button>
+        <button className="btnFirst" onClick={this.startTimer}>Start Timer</button>
+        <button className="btnSecond" onClick={this.stopTimer}>Stop Timer</button>
       </div>
     );
   }
