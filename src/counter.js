@@ -18,13 +18,13 @@ class Counter extends Component {
 
   increment() {
     this.setState((prevState) => ({
-      count: prevState.count + 5
+      count: prevState.count + 1
     }));
   }
 
   decrement() {
     this.setState((prevState) => ({
-      count: prevState.count - 5,
+      count: prevState.count -1,
     }));
   }
 
@@ -58,7 +58,7 @@ class Counter extends Component {
         <h1>Count: {this.state.count}</h1>
         <button className="btnFirst" onClick={this.increment}>Increase</button>
         <button className="btnSecond" onClick={this.decrement}>Decrease</button>
-        <h2>Timer: {this.state.timer}</h2>
+        <h1>Timer: {this.state.timer}</h1>
         <button className="btnFirst" onClick={this.startTimer}>Start Timer</button>
         <button className="btnSecond" onClick={this.stopTimer}>Stop Timer</button>
       </div>
