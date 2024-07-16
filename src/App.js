@@ -14,6 +14,7 @@ import HomeComponent from './components/Home/HomeComponent';
 import ShopComponent from './components/Shop/ShopComponent';
 import AboutComponents from './components/About/AboutComponents';
 import ProductComponent from './components/ProductComponent/ProductComponent';
+import DoComponents from './components/To-do/TodoApp';
 
 
 function App() {
@@ -26,25 +27,12 @@ function App() {
       <Route path="/shop" element={<ShopComponent/>}/>
       <Route path="/about" element={<AboutComponents/>}/>
       <Route path="/product" element={<ProductComponent/>}/>
+      <Route path="/todo" element={<DoComponents/>}/>
+
 
       </Routes>
     </Router>
     
-    // <div>
-    //     {/* <ClassComponent/> */}
-    //     {/* <Counter/> */}
-    //     {/* <CounterFunction/> */}
-    //     {/* <GreetComponent name='sora'/> */}
-    //     {/* <GreetSoraComponent/> */}
-    //     {/* <SoraComponent/> */}
-    //     {/* <ParentToggleComponent/>
-    //     <CounterParent/>
-    //     <ParentMsgComponent /> */}
-    //     {/* <NavbarComponent/> */}
-
-
-
-    // </div> 
 
   );
 }
