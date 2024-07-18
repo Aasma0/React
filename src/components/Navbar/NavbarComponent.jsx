@@ -24,12 +24,14 @@ function NavbarComponent() {
               <Link to="/contact" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</Link>
               <Link to="/product" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Product</Link>
               <Link to="/todo" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">To Do</Link>
+              <Link to="/formvalidation" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">FormValidation</Link>
             </div>
           </div>
           {/* Secondary Navbar items */}
           <div className="hidden md:flex items-center space-x-3 ">
             <Link to="/login" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-gray-200 transition duration-300">Log In</Link>
-            <Link to="/signup" className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</Link>
+            <Link to="/registration" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-gray-200 transition duration-300">Sign Up</Link>
+            <Link to="/enter" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-gray-200 transition duration-300">Event</Link>
           </div>
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
@@ -59,8 +61,10 @@ function NavbarComponent() {
             <li><Link to="/contact" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</Link></li>
             <li><Link to="/product" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Product</Link></li>
             <Link to="/todo" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">To Do</Link>
+            <Link to="/formvalidation" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">FormValidation</Link>
             <li><Link to="/login" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Log In</Link></li>
-            <li><Link to="/signup" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Sign Up</Link></li>
+            <li><Link to="/registration" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Sign Up</Link></li>
+            <li><Link to="/enter" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Event</Link></li>
           </ul>
         </div>
       )}
